@@ -1,0 +1,20 @@
+{
+  "chatClient": {
+    "options": {
+      "logLevel": "info"
+    }
+  },
+  "tokenGenerator": {
+    "accountSid": "",
+    "signingKeySid": "",
+    "signingKeySecret": "",
+    "serviceSid": ""
+  },
+  "ngrok": {
+    "subdomain": "somengroksubdomain",
+    "basicAuth": {
+      "username": "someusername",
+      "password": "somepassword"
+    }
+  }
+}

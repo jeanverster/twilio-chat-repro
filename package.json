@@ -5,21 +5,33 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "token": "node tokenServer.js"
   },
   "dependencies": {
+    "buffer": "^5.6.0",
+    "events": "^3.2.0",
     "expo": "~39.0.2",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "styled-components": "^5.2.0",
+    "styled-system": "^5.1.5",
+    "twilio": "^3.49.4",
+    "twilio-chat": "^4.0.0"
   },
   "devDependencies": {
-    "react-native-web": "~0.13.7",
     "@types/react": "~16.9.35",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
+    "babel-runtime": "^6.26.0",
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.3.0",
+    "react-native-web": "~0.13.7",
     "typescript": "~3.9.5"
   },
   "private": true
